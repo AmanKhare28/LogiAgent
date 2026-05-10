@@ -16,8 +16,8 @@ class Settings(BaseSettings):
     max_tokens: int = 1024
 
     # Embeddings
-    embedding_provider: str = "openai"
-    embedding_model: str = "text-embedding-3-small"
+    embedding_provider: str = "huggingface"
+    embedding_model: str = "all-MiniLM-L6-v2"
 
     # RAG
     faiss_index_path: str = "./faiss_index"
