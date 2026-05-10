@@ -1,0 +1,81 @@
+# Supply Chain & Logistics Knowledge Base
+
+## Incoterms 2020
+
+Incoterms (International Commercial Terms) are a set of rules published by the International Chamber of Commerce (ICC) that define the responsibilities of buyers and sellers in international trade. The 2020 edition includes eleven terms.
+
+### EXW — Ex Works
+Under EXW, the seller makes goods available at their premises (factory, warehouse, etc.). The buyer bears all costs and risks from that point, including export clearance, loading, transportation, insurance, and import duties. EXW represents the minimum obligation for the seller. It is commonly used for domestic trade or when the buyer has strong logistics capabilities.
+
+### FOB — Free On Board
+FOB (port of shipment) means the seller delivers goods on board the vessel nominated by the buyer at the named port. Risk transfers from seller to buyer the moment goods are on board. The seller handles export clearance; the buyer arranges and pays for freight and insurance. FOB is widely used for sea and inland waterway transport of bulk cargo and containerised goods.
+
+### CIF — Cost, Insurance and Freight
+Under CIF, the seller pays for the cost of goods, insurance, and freight to the destination port. However, risk transfers to the buyer once goods are loaded on the vessel at origin. The seller must procure minimum insurance coverage. CIF is used exclusively for sea/waterway transport and is common in commodities trading.
+
+### DAP — Delivered At Place
+Under DAP, the seller delivers goods to a named destination, ready for unloading by the buyer. The seller bears all costs and risks up to the destination except import duties and taxes. DAP works for any mode of transport and is popular for door-to-door deliveries.
+
+### DDP — Delivered Duty Paid
+DDP represents the maximum obligation for the seller. The seller delivers goods at the named destination, already cleared for import, with all duties and taxes paid. The buyer only needs to unload. DDP is used when sellers want to offer a seamless experience to buyers who prefer not to handle import formalities.
+
+---
+
+## Freight Modes
+
+### Air Freight
+Air freight is the fastest mode for international shipments. Transit times typically range from 1 to 5 business days. It is significantly more expensive than sea freight — roughly 4 to 5 times the cost per kilogram. Air freight is ideal for high-value, time-sensitive, or perishable goods such as electronics, pharmaceuticals, fresh produce, and fashion items. Weight and dimensional limits apply; chargeable weight is calculated as the greater of actual weight or volumetric weight (L×W×H÷6000 cm³).
+
+### Sea Freight
+Ocean freight is the most cost-effective mode for large volumes and heavy cargo. Transit times range from 10 to 45 days depending on the trade lane. Two main options exist: FCL (Full Container Load), where a shipper uses a full container (20ft or 40ft), and LCL (Less than Container Load), where cargo from multiple shippers is consolidated. Sea freight is ideal for bulk commodities, machinery, consumer goods, and any cargo where cost outweighs speed.
+
+### Road Freight
+Road transport is the primary mode for domestic and regional (e.g., intra-EU, intra-ASEAN) shipments. Transit times range from 1 to 14 days. Road freight offers door-to-door service, flexible scheduling, and is suitable for a wide range of cargo types. Costs depend on distance, weight, and whether the load is FTL (Full Truck Load) or LTL (Less than Truck Load).
+
+### Rail Freight
+Rail is an intermediate option between air and sea in terms of cost and speed. The China–Europe Rail Corridor (New Silk Road) has made rail a viable alternative for cargo moving between Asia and Europe, with transit times of 12–20 days compared to 25–35 days by sea. Rail is well-suited for containerised cargo, hazardous materials, and bulk commodities.
+
+---
+
+## Key Supply Chain Terminology
+
+**Lead Time**: The total time from placing an order to receiving the goods. It includes order processing, manufacturing, quality checks, and transportation. Reducing lead time is a key competitive advantage.
+
+**Safety Stock**: Extra inventory held as a buffer against demand variability and supply uncertainty. The safety stock formula is: SS = Z × σ_LT × D_avg, where Z is the service-level factor, σ_LT is the standard deviation of lead time, and D_avg is average demand.
+
+**EOQ (Economic Order Quantity)**: The order quantity that minimises the total holding and ordering costs. EOQ = √(2DS/H), where D is annual demand, S is ordering cost per order, and H is holding cost per unit per year.
+
+**Bullwhip Effect**: The amplification of demand variability as orders move upstream in the supply chain. Small fluctuations at the retail level lead to increasingly large swings in orders at the wholesale, distributor, and manufacturer levels. Causes include demand forecast updating, order batching, price fluctuations, and shortage gaming.
+
+**3PL (Third-Party Logistics)**: A company that provides outsourced logistics services including warehousing, transportation, and distribution. Examples: DHL Supply Chain, XPO Logistics, DB Schenker.
+
+**4PL (Fourth-Party Logistics)**: A lead logistics provider that manages multiple 3PLs on behalf of the client, providing end-to-end supply chain oversight and optimisation.
+
+---
+
+## Trade Documentation
+
+**Bill of Lading (B/L)**: A legal document issued by a carrier to a shipper. It serves three purposes: receipt of cargo, evidence of the contract of carriage, and a document of title (for negotiable B/Ls). Sea Waybills are non-negotiable alternatives used when title transfer is not required.
+
+**Commercial Invoice**: The primary trade document showing the seller, buyer, goods description, quantity, unit price, total value, currency, and Incoterm. Customs authorities use the commercial invoice to assess duties and taxes.
+
+**Packing List**: A detailed breakdown of the shipment contents, including the number of packages, dimensions, weights, and item descriptions. The packing list accompanies the commercial invoice and supports the B/L.
+
+**Certificate of Origin (CO)**: A document certifying that the goods were produced, manufactured, or processed in a specific country. Required for preferential tariff treatment under Free Trade Agreements (e.g., ASEAN FTA, EU–Korea FTA). Two types: non-preferential (Form A) and preferential.
+
+**Letter of Credit (L/C)**: A financial instrument issued by the buyer's bank guaranteeing payment to the seller upon presentation of compliant shipping documents. L/Cs reduce payment risk in international trade.
+
+---
+
+## Major Global Freight Corridors and Transit Times
+
+| Corridor | Sea (days) | Air (days) | Rail (days) |
+|---|---|---|---|
+| Asia–Europe (Shanghai to Rotterdam) | 28–35 | 2–3 | 16–20 |
+| Transpacific (Shanghai to Los Angeles) | 14–18 | 1–2 | N/A |
+| Asia–Middle East (Mumbai to Dubai) | 5–8 | 1 | N/A |
+| Transatlantic (Rotterdam to New York) | 8–12 | 1–2 | N/A |
+| Intra-Asia (Singapore to Tokyo) | 5–7 | 1 | N/A |
+| India–Europe (Mumbai to Frankfurt) | 22–28 | 2–3 | 18–22 |
+
+Freight rates fluctuate based on fuel costs, vessel capacity, seasonal demand, and geopolitical events. The Baltic Dry Index (BDI) is a leading indicator for dry-bulk freight rates. The Shanghai Containerized Freight Index (SCFI) tracks spot rates on major trade lanes.

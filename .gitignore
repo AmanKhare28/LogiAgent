@@ -1,0 +1,28 @@
+## Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.coverage
+htmlcov/
+coverage/
+.pytest_cache/
+*.log
+
+## Environment / secrets
+.env
+.env.local
+
+## FAISS index (built at runtime)
+faiss_index/
+
+## Node
+node_modules/
+dist/
+
+## macOS
+.DS_Store
+
+## IDE
+.vscode/
+.idea/
