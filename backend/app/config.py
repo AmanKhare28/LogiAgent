@@ -7,8 +7,8 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
     # LLM
-    llm_provider: str = "anthropic"
-    model_name: str = "claude-sonnet-4-6"
+    llm_provider: str = "groq"
+    model_name: str = "llama-3.3-70b-versatile"
     anthropic_api_key: str = ""
     openai_api_key: str = ""
     groq_api_key: str = ""
@@ -28,7 +28,7 @@ class Settings(BaseSettings):
 
     # Server
     log_level: str = "INFO"
-    cors_origins: list[str] = ["http://localhost:3000"]
+    cors_origins: list[str] = ["http://localhost:3000", "http://localhost:5173", "https://logi-agent.vercel.app"]
 
 
 @lru_cache
