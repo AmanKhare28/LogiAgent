@@ -3,6 +3,7 @@ import type { ChatRequest, ChatResponse } from "./types";
 
 // import.meta.env is Vite-only; process.env fallback is used by Jest.
 const BASE_URL: string =
+  import.meta.env.VITE_API_URL ||
   (typeof process !== "undefined" && process.env.VITE_API_URL) ||
   "http://localhost:8000";
 
